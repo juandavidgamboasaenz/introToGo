@@ -27,7 +27,7 @@ func MyTypes() {
 	var a2 int = 2
 	var c2, c3 int = -15, 0
 	var d1, d2, d4 bool = true, false, true
-	var u2, u3 User = User{
+	var u2, u3, p1 User = User{
 		Name:     "Fulanito",
 		LastName: "Cosme",
 		Age:      69,
@@ -38,9 +38,15 @@ func MyTypes() {
 			LastName: "Cosme",
 			Age:      69,
 			IsActive: true,
+		},
+		User{
+			Name:     "Fulanito",
+			LastName: "Cosme",
+			Age:      69,
+			IsActive: true,
 		}
 
-	fmt.Println(a2, c2, c3, d1, d2, d4, u2, u3)
+	fmt.Println(a2, c2, c3, d1, d2, d4, u2, u3, p1)
 
 	var e1, e2 = 1, 2
 	var f1, f2 = true, false
