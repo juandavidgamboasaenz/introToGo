@@ -1,9 +1,10 @@
 package main
 
-import "github.com/LordCeilan/introToGo/packages/cycles"
+import (
+	"github.com/LordCeilan/introToGo/packages/cycles"
+	"github.com/LordCeilan/packages/cycles"
+)
 
 func main() {
-	// channelz.MyChannels()
-	// goroutines.MyGoroutines()
 	cycles.MyCycles()
 }

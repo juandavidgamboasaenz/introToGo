@@ -9,6 +9,9 @@ func MyCycles() {
 
 	j := 0
 
+	// for _, v := range v {
+
+	// }
 	for {
 		fmt.Println(j)
 
