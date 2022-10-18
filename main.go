@@ -1,10 +1,16 @@
 package main
 
 import (
-	"github.com/LordCeilan/introToGo/packages/cycles"
-	"github.com/LordCeilan/packages/cycles"
+	"fmt"
+
+	"github.com/LordCeilan/introToGo/packages/slice"
 )
 
 func main() {
-	cycles.MyCycles()
+
+	v := [3]int{1, 2, 3}
+	p := []int{1, 2, 3}
+	slice.VecPorc(v, p)
+	fmt.Println("vector: ", v)
+	fmt.Println("portion: ", p)
 }
