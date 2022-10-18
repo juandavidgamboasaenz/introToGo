@@ -104,3 +104,24 @@ func MySlices() {
 	indexedSlices()
 
 }
+
+func VecPorc(vec [3]int, porc []int) {
+
+	/*
+		In this implementation using a vector and a portion
+		shows the difference between a value re asign and a
+		reference re assign, if the mokings are declared out
+		side the functions the vector "v" will not save the
+		reassigned value, besides the "p" value will re refe
+		rence to the original portion without pointers notation0
+			//Mockings
+				v := [3]int{1, 2, 3}
+				p := []int{1, 2, 3}
+	*/
+
+	vec[0] = 0
+	if len(porc) > 0 {
+		porc[0] = 0
+	}
+
+}
