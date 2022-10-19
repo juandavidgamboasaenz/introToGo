@@ -1,11 +1,11 @@
 package main
 
 import (
-	viewsportions "github.com/LordCeilan/introToGo/packages/viewsPortions"
+	variablearguments "github.com/LordCeilan/introToGo/packages/variableArguments"
 )
 
 func main() {
 
-	viewsportions.ViewsPortions()
+	variablearguments.VariableArguments()
 
 }
