@@ -1,11 +1,9 @@
 package main
 
 import (
-	variablearguments "github.com/LordCeilan/introToGo/packages/variableArguments"
+	stringchains "github.com/LordCeilan/introToGo/packages/stringChains"
 )
 
 func main() {
-
-	variablearguments.VariableArguments()
-
+	stringchains.StringChains()
 }
