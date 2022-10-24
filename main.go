@@ -1,9 +1,9 @@
 package main
 
 import (
-	stringchains "github.com/LordCeilan/introToGo/packages/stringChains"
+	panicdefer "github.com/LordCeilan/introToGo/packages/panicDefer"
 )
 
 func main() {
-	stringchains.StringChains()
+	panicdefer.PanicDefer()
 }
