@@ -1,9 +1,9 @@
 package main
 
-import (
-	panicdefer "github.com/LordCeilan/introToGo/packages/panicDefer"
-)
+import atomicpointer "github.com/LordCeilan/introToGo/packages/atomicPointer"
 
 func main() {
-	panicdefer.PanicDefer()
+	atomicpointer.AtomicPointer()
+	atomicpointer.AtomicPointerUseCase()
+	atomicpointer.DataRace()
 }
