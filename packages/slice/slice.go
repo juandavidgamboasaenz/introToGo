@@ -5,7 +5,7 @@ import "fmt"
 type food int
 type language int
 
-//Here we use iota as a 0 type for language type int types
+// Here we use iota as a 0 type for language type int types
 const (
 	en language = iota
 	fr
@@ -21,8 +21,8 @@ const (
 	pa
 )
 
-//If we need to access specific positions in an array slicing with :
-//Is an easy way to do it
+// If we need to access specific positions in an array slicing with :
+// Is an easy way to do it
 func Slicing() {
 	arr := [3]int{1, 2, 3}
 
@@ -50,7 +50,7 @@ func SliceCopy() {
 	fmt.Println(copia)
 }
 
-func indexedSlices() {
+func IndexedSlices() {
 
 	option := [...]string{
 		en: "English",
@@ -100,8 +100,6 @@ func MySlices() {
 
 	var a2 = [...]int{10, 20, 30}
 	fmt.Println(a2)
-
-	indexedSlices()
 
 }
 

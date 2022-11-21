@@ -1,9 +1,7 @@
 package main
 
-import atomicpointer "github.com/LordCeilan/introToGo/packages/atomicPointer"
+import "github.com/LordCeilan/introToGo/packages/operatorz"
 
 func main() {
-	atomicpointer.AtomicPointer()
-	atomicpointer.AtomicPointerUseCase()
-	atomicpointer.DataRace()
+	operatorz.Operate()
 }
